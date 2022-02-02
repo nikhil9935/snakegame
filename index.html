@@ -113,12 +113,12 @@
         if(isCollide(snakeArr)){
             setInterval('window.location.reload()', 1000);
             gameOverSound.play();
-            musicSound.pause();
+            
             inputDir =  {x: 0, y: 0}; 
     
             alert("Game Over.");
             snakeArr = [{x: 13, y: 15}];
-            musicSound.play();
+           
             score = 0; 
         }
     
